@@ -1,0 +1,35 @@
+header {
+    font-size: 50px; 
+    color: yellow; 
+    background-color: royalblue; 
+    text-align: center; 
+    padding: .5em; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+nav ul{
+    list-style: none;
+    margin: 0 2px;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 5em;
+    padding-right: 5em;
+    font-size: x-large;
+}
+#topcolor { 
+    background-color: royalblue; 
+    padding-bottom: 1em;
+}
+#test {
+    float: right;
+    padding-right: .25em;
+}
+#butest {
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    display: inline-block;
+    color: royalblue;
+    font-size: x-large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
