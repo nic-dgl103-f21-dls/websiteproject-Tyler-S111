@@ -12,19 +12,19 @@ nav ul{
     padding: 0;
     display: flex;
     justify-content: space-around;
-    padding-left: 5em;
-    padding-right: 5em;
     font-size: x-large;
 }
 #topcolor { 
     background-color: royalblue; 
     padding-bottom: 1em;
+    display: block;
+    margin: -10px;
 }
-#test {
+#buttonSMpos {
     float: right;
     padding-right: .25em;
 }
-#butest {
+#buttonSM {
     height: 40px;
     width: 40px;
     text-align: center;
@@ -35,4 +35,25 @@ nav ul{
 }
 body {
     background-color: skyblue;
+    overflow: auto;
+}
+#subtext {
+    font-size: small;
+    color: white;
+    text-align: center;
+    margin-left: 7em;
+}
+#leftpos {
+    position: relative;
+    left: 100px;
+    width:30%;
+    padding-top: 5em;
+}
+img {
+    max-width: 100%;
+    height:auto;
+    width:auto;
+}
+#desc {
+    font-size: 1.5em;
 }
