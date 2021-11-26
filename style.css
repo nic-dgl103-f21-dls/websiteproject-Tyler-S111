@@ -13,6 +13,7 @@ nav ul{
     display: flex;
     justify-content: space-around;
     font-size: x-large;
+    background-color: royalblue;
 }
 #topcolor { 
     background-color: royalblue; 
@@ -24,7 +25,16 @@ nav ul{
     float: right;
     padding-right: .25em;
 }
-#buttonSM {
+#buttonSM1 {
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    display: inline-block;
+    color: royalblue;
+    font-size: x-large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#buttonSM2 {
     height: 40px;
     width: 40px;
     text-align: center;
@@ -46,8 +56,16 @@ body {
 #leftpos {
     position: relative;
     left: 100px;
-    width:30%;
+    width:40%;
     padding-top: 5em;
+    display:inline-block;
+}
+#rightpos {
+    position:absolute;
+    right: 100px;
+    width:40%;
+    padding-top: 5em;
+    display:inline-block;
 }
 img {
     max-width: 100%;
@@ -55,5 +73,5 @@ img {
     width:auto;
 }
 #desc {
-    font-size: 1.5em;
+    font-size: 1.25em;
 }
