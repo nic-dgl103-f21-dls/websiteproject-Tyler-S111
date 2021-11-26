@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>  
-      <header id="topcolor">
+      <header class="topcolor">
         <a href="index.html" style="text-decoration: none; color: yellow;" >Dogwood Petmart</a>
         <div id ="buttonSMpos"><button id="buttonSM1">F</button>
         <button id="buttonSM2">I</button>
@@ -27,7 +27,9 @@
         </ul>
       </nav>
     <br><br><br>
-    <div id="leftpos">
+    
+    
+    <div class="leftpos">
       <img src="images/bulldog.jpg" alt="Bulldog Laying">
       <br>
       <h2 class="centert">Campbell River Pet Food & Supply</h2>
@@ -52,18 +54,23 @@
       <h3 class="centert"> Dont see what you need?</h3>
       <p class="centert">Check out our <a href="products.html">product page!</a></p>
     </div>
-    <div id="rightpos">
+    
+    
+    <div class="rightpos">
         <img src="images/beagleeat.jpg" alt="Dog eating kibble">
           <p>A beautiful beagle enjoying some of our high quality products</p>
         <br><br>
         <img src="images/dogtoy.jpg" alt="Various Dogtoys">
           <p>Various toys will keep your furry friends entertained for hours!</p>
     </div>     
+    
     <hr>
+    
     <div>
       <h4 class="centert">Sign up for our Newsletter - "The Daily Beagle!"</h4>
+      <p class="centert"><i>Just send us an E-mail and we will add you to the list!</i></p>
     </div>
-    <form action="action_page.php">
+    <form action="mailto:newsletteremail@gmail.com"> <!--Wasnt sure how to implement this with php, so used a primitive way of emailing to add self to mailing list.-->
       <div class="container" style="background-color:white">
         <input type="text" placeholder="Name" name="name" required>
         <input type="text" placeholder="Email address" name="mail" required>
@@ -74,10 +81,28 @@
           <input type="checkbox" checked="checked" name="subscribe"> Monthly Newsletter
         </label>
       </div>
-    </form> 
+    
   
     <div class="container">
       <input type="submit" value="Subscribe">
     </div>
+    </form>
+    <hr>
+  <div>
+    <div class="leftposfoot">
+      <h3 class="centert">Hours</h3>
+      <p class="centert">
+        Monday to Saturday: 9am to 6pm <br>
+        Sunday and Holidays: 11am to 5pm
+      </p>
+    </div>
+    <div class="rightposfoot">
+      <h3 class="centert">Contact Information</h3>
+      <p class="centert">
+        Phone: 250-999-9999 <br>
+        Email: fakeemailadress@gmail.com
+      </p>
+    </div> 
+  </div>
   </body>
 </html> 

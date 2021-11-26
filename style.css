@@ -15,7 +15,7 @@ nav ul{
     font-size: x-large;
     background-color: royalblue;
 }
-#topcolor { 
+.topcolor { 
     background-color: royalblue; 
     padding-bottom: 1em;
     display: block;
@@ -55,18 +55,31 @@ body {
     margin-left: 7em;
 }
 /*Intended to position two divs next to eachother*/
-#leftpos {
+.leftpos {
     position: relative;
     left: 100px;
     width:40%;
     padding-top: 5em;
     display:inline-block;
 }
-#rightpos {
+.rightpos {
     position:absolute;
     right: 100px;
     width:40%;
     padding-top: 5em;
+    display:inline-block;
+}
+/*Intended to position the two divs in footer for Hours/Contact info - Removes the padding-top*/
+.leftposfoot {
+    position: relative;
+    left: 50px;
+    width:40%;
+    display:inline-block;
+}
+.rightposfoot {
+    position:relative;
+    right: 50px;
+    width:40%;
     display:inline-block;
 }
 img {
