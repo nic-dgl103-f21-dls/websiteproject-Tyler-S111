@@ -10,6 +10,7 @@
         <a href="index.html" style="text-decoration: none; color: yellow;" >Dogwood Petmart</a>
         <div id ="buttonSMpos"><button id="buttonSM1">F</button>
         <button id="buttonSM2">I</button>
+        <!--I was unsure if allowed to use Facebook and instagrams logos for the Social media button links so opted for an F and I out of safety-->
         </div>
         <div id="subtext"><br>
           Campbell rivers favourite petfood and supply store
@@ -28,7 +29,8 @@
     <br><br><br>
     <div id="leftpos">
       <img src="images/bulldog.jpg" alt="Bulldog Laying">
-      <h2>Campbell River Pet Food & Supply</h2>
+      <br>
+      <h2 class="centert">Campbell River Pet Food & Supply</h2>
         <p id="desc">
           We have been satisfying pets' appetites and nutritional needs since 1985. 
           We are locally owned and operated and are well-known, respected members of the business community.
@@ -37,15 +39,45 @@
           will make the pet food and supply shopping experience easy and enjoyable for both you and your furry companions.       
           <button onclick="location.href='about.html'">Learn More!</button>
         </p>
+        <br><br>
+      <h2 class="centert">This months featured products!</h2> <!--Obviously all fake products, intended to be replaced with real products-->
+      <ol>
+        <li>Franks Furry-Friends Frog</li>
+        <li>Christas Colourful Collars</li>
+        <li>Jimothys Not-reals Genuine Chicken Kibble</li>
+        <li>Payed product placement fleaBgone</li>
+        <li>Stuff and things inc brand catfood</li>
+      </ol>
+      <br><br>
+      <h3 class="centert"> Dont see what you need?</h3>
+      <p class="centert">Check out our <a href="products.html">product page!</a></p>
     </div>
     <div id="rightpos">
         <img src="images/beagleeat.jpg" alt="Dog eating kibble">
-        <p>A beautiful beagle enjoying some of our high quality products</p>
+          <p>A beautiful beagle enjoying some of our high quality products</p>
         <br><br>
         <img src="images/dogtoy.jpg" alt="Various Dogtoys">
-        <p>Various toys will keep your furry friends entertained for hours!</p>
-
+          <p>Various toys will keep your furry friends entertained for hours!</p>
     </div>     
-
+    <hr>
+    <div>
+      <h4 class="centert">Sign up for our Newsletter - "The Daily Beagle!"</h4>
+    </div>
+    <form action="action_page.php">
+      <div class="container" style="background-color:white">
+        <input type="text" placeholder="Name" name="name" required>
+        <input type="text" placeholder="Email address" name="mail" required>
+        <label>
+          <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+        </label>
+        <label>  
+          <input type="checkbox" checked="checked" name="subscribe"> Monthly Newsletter
+        </label>
+      </div>
+    </form> 
+  
+    <div class="container">
+      <input type="submit" value="Subscribe">
+    </div>
   </body>
 </html> 

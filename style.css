@@ -25,6 +25,7 @@ nav ul{
     float: right;
     padding-right: .25em;
 }
+/*SM stand for social media in this context*/
 #buttonSM1 {
     height: 40px;
     width: 40px;
@@ -53,6 +54,7 @@ body {
     text-align: center;
     margin-left: 7em;
 }
+/*Intended to position two divs next to eachother*/
 #leftpos {
     position: relative;
     left: 100px;
@@ -74,4 +76,27 @@ img {
 }
 #desc {
     font-size: 1.25em;
+}
+.centert {
+    text-align: center;
+}
+.container {
+    padding: 20px;
+    justify-content: center;
+}
+input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    background-color: royalblue;
+    color: white;
+    border: none;  
+}
+input[type=submit]:hover {
+    opacity: 0.8;
 }
