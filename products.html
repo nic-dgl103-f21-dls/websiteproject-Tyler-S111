@@ -1,19 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Home</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
   </head>
-  <body>
-    <div id="topcolor">
-      <header><a href="index.html" style="text-decoration: none; color: yellow;" >Dogwood Petmart</a>
-        <div id ="buttonSMpos"><button id="buttonSM1">I</button></div>
-        <div id ="buttonSMpos"><button id="buttonSM2">F</button></div>
-        <div id="subtext"><br>
-        Campbell rivers favourite petfood and supply store
+  <body>  
+      <header class="topcolor">
+        <a href="index.html" style="text-decoration: none; color: yellow;" >Dogwood Petmart</a>
+        <div id ="buttonSMpos"><button id="buttonSM1">F</button>
+        <button id="buttonSM2">I</button>
+        <!--I was unsure if allowed to use Facebook and instagrams logos for the Social media button links so opted for an F and I out of safety-->
         </div>
-    </div>
+        <div id="subtext"><br>
+          Campbell rivers favourite petfood and supply store
+        </div>
       </header>
     <hr>
       <nav>
@@ -22,10 +23,87 @@
           <li><a href="products.html" style="text-decoration: none; color: rgb(255, 255, 255);">Products</a></li>
           <li><a href="specials.html" style="text-decoration: none; color: rgb(255, 255, 255);">Specials and Contests</a></li>
           <li><a href="about.html" style="text-decoration: none; color: rgb(255, 255, 255);">About Us</a></li>
-          <li><a href="contact.html" style="text-decoration: none; color: rgb(255, 255, 255);">Contact Us</a></nav></li> 
+          <li><a href="contact.html" style="text-decoration: none; color: rgb(255, 255, 255);">Contact Us</a></li> 
         </ul>
       </nav>
-    </div>
     <br><br><br>
+<div style="text-align: center; "> 
+    <button id="myBtn">Find out about low-contact options</button>
+    <div id="mypopup" class="popup">
+
+      <div class="popupcontent">
+        <span class="close">&times;</span>
+        <p>
+          <b>1.</b> FREE delivery. Call us at 250-999-9999 to order and pay by Visa or MasterCard. We will deliver your order and leave it on your doorstep. 
+          This service is available for FREE Monday through Friday.<br>
+          <b>2.</b> Store pick up. Call ahead with your order, pay by Visa or MasterCard, and we will bring everything out to your vehicle when you arrive.<br>
+          <b>3.</b> Email orders. You can email us at fakeemailadress@gmail.com with your order.<br>
+          Please include a phone number to reach you at. DO NOT put your credit card information in your email, we will call you for that information.<br>
+          Please let us know if you would like FREE home delivery or store pick up.
+          We’re happy to help you with any questions you may have by phone or email!</p>
+      </div>
+    
+    </div>
+    <script>
+      var modal = document.getElementById("mypopup");
+      
+      var btn = document.getElementById("myBtn");
+      
+      var span = document.getElementsByClassName("close")[0];
+      btn.onclick = function() {
+        modal.style.display = "block";
+      }
+      span.onclick = function() {
+        modal.style.display = "none";
+      }
+      window.onclick = function(event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      }
+    </script>
+</div>
+  <div class="leftpos">
+    <img src="images/kibble.jpg" alt="Kibble">
+  </div>
+  <div class="rightpos">
+    <img src="images/dogtoy.jpg" alt="Pet Toys">
+    <img src="images/dogtoy.jpg" alt="Pet Toys"> <!--Replace when get more stockimages-->
+  </div>
+  <div style="margin-left: 100px;">
+    <h2>Some of our current best sellers!</h2>
+      <ul>
+        <li>Barking biscuits</li>
+        <li>Lengthy leashes</li>
+        <li>Feline Fine Cat Food</li>
+        <li>Alpha Brand Dog Collars & Leashes</li>
+        <li>Phish Phood Brand Fish Food</li>
+        <li>Blue Bull energy</li>
+      </ul>
+       
+      <h3>Dont see what you are looking for?</h3>
+      <p> 
+      Give us a call or shoot us an E-mail! We might have what you are looking for!<br>
+      Or we could order it for you for a future date!
+      </p>
+  </div>
+
+      <hr>
+  <div>
+    <div class="leftposfoot">
+      <h3 class="centert">Hours</h3>
+      <p class="centert">
+        Monday to Saturday: 9am to 6pm <br>
+        Sunday and Holidays: 11am to 5pm
+      </p>
+    </div>
+    <div class="rightposfoot">
+      <h3 class="centert">Contact Information</h3>
+      <p class="centert">
+        Phone: 250-999-9999 <br>
+        Email: fakeemailadress@gmail.com
+      </p>
+    </div> 
+  </div>
   </body>
 </html>
