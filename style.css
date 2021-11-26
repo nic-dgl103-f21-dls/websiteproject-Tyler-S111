@@ -65,7 +65,7 @@ body {
 .rightpos {
     position:absolute;
     right: 100px;
-    width:40%;
+    width:30%;
     padding-top: 5em;
     display:inline-block;
 }
@@ -77,7 +77,7 @@ body {
     display:inline-block;
 }
 .rightposfoot {
-    position:relative;
+    position:absolute;
     right: 50px;
     width:40%;
     display:inline-block;
@@ -112,4 +112,9 @@ input[type=submit] {
 }
 input[type=submit]:hover {
     opacity: 0.8;
+}
+.popup  {
+    position:relative;
+    display: inline-block;
+    cursor: pointer;
 }
