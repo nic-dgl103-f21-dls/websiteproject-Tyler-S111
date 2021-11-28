@@ -45,7 +45,7 @@ nav ul{
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 body {
-    background-color: skyblue;
+    background-color: rgb(99, 201, 241);
     overflow: auto;
 }
 #subtext {
