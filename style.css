@@ -147,3 +147,25 @@ input[type=submit]:hover {
     text-decoration: none;
     cursor: pointer;
 }
+#storefront {
+    height: 30em;
+}
+.fill {
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url('images/storefront.jpg');
+    height: 30em;
+}
+.majleft{
+    width: 50%;
+    margin-left: 50px;
+    display: inline-block;
+}
+.minright {
+    width: 20%;
+    float:right;
+    border-style: dashed;
+    border-top: none;
+    right:40px;
+}
