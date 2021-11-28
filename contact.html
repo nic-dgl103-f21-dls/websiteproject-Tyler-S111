@@ -45,5 +45,34 @@
           <b>Email:</b> fakeemailadress@gmail.com
         </p>
     </div>
+    <div class="rightpos">
+      <h2>Hours</h2>
+      <table>
+        <tr>
+          <th>Monday to Saturday</th>
+          <td>9am to 6pm</td>
+        </tr>
+        <tr>
+          <th>Sunday and Holidays</th>
+          <td>11am to 5pm</td>
+        </tr>
+      </table>
+      
+    </div>
+
+    <div id="gMap" style="width:100%;height:400px;"></div>
+<!--Managed to figure out the google map, though I cannot for the life of me figure out how to have a marker added in, so I 
+compromised by zooming in farther than I would have liked.-->
+<script>
+function myMap() {
+  var mapProp= {
+    center:new google.maps.LatLng(50.01151298438017, -125.24696585925123),
+    zoom:18,
+  };
+  var map = new google.maps.Map(document.getElementById("gMap"),mapProp);
+  }
+  </script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQznoYKFBD7tAabONheTVlJqP39PS-s7g&callback=myMap"></script>
   </body>
 </html>
