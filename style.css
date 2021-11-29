@@ -1,3 +1,4 @@
+/* Items used in every page*/
 header {
     font-size: 50px; 
     color: yellow; 
@@ -15,6 +16,13 @@ nav ul{
     font-size: x-large;
     background-color: royalblue;
 }
+body {
+    background: linear-gradient(to bottom, royalblue, skyblue, rgb(199, 174, 233));
+}
+footer {
+    text-align: center;
+}
+
 .topcolor { 
     background-color: royalblue; 
     padding-bottom: 1em;
@@ -25,7 +33,7 @@ nav ul{
     float: right;
     padding-right: .25em;
 }
-/*SM stand for social media in this context*/
+/*SM stands for social media in this context*/
 #buttonSM1 {
     height: 40px;
     width: 40px;
@@ -44,10 +52,7 @@ nav ul{
     font-size: x-large;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
-body {
-    background-color: rgb(99, 201, 241);
-    overflow: auto;
-}
+
 #subtext {
     font-size: small;
     color: white;
@@ -93,6 +98,33 @@ img {
 .centert {
     text-align: center;
 }
+/*Few or Single use*/
+#storefront {
+    height: 30em;
+}
+.fill {
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url('images/storefront.jpg');
+    height: 30em;
+}
+.majleft{
+    width: 50%;
+    margin-left: 50px;
+    display: inline-block;
+}
+.minright {
+    width: 20%;
+    float:right;
+    border-style: dashed;
+    border-top: none;
+    right:40px;
+}
+.pbigtext {
+    font-size: x-large;
+}
+/*Items used in the Modal popup*/
 .container {
     padding: 20px;
     justify-content: center;
@@ -147,32 +179,5 @@ input[type=submit]:hover {
     text-decoration: none;
     cursor: pointer;
 }
-#storefront {
-    height: 30em;
-}
-.fill {
-    overflow: hidden;
-    background-size: cover;
-    background-position: center;
-    background-image: url('images/storefront.jpg');
-    height: 30em;
-}
-.majleft{
-    width: 50%;
-    margin-left: 50px;
-    display: inline-block;
-}
-.minright {
-    width: 20%;
-    float:right;
-    border-style: dashed;
-    border-top: none;
-    right:40px;
-}
-.pbigtext {
-    font-size: x-large;
-}
-footer {
-    text-align: center;
-}
+
 
