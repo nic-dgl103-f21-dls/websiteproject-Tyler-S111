@@ -169,7 +169,7 @@ input[type=submit]:hover {
     border-top: none;
     right:40px;
 }
-figcaption {
+.pbigtext {
     font-size: x-large;
 }
 footer {
